@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc9e190c854bb44e93d158c3765e105, type: 3}
   m_Name: Wood
   m_EditorClassIdentifier: 
-  itemName: 
-  description: 
-  icon: {fileID: 0}
+  itemName: Wood Log
+  description: Used to make planks
+  icon: {fileID: 21300000, guid: d257c82eeb0492548aad8620cd503759, type: 3}
   itemTypes: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc9e190c854bb44e93d158c3765e105, type: 3}
   m_Name: Hide
   m_EditorClassIdentifier: 
-  itemName: 
-  description: 
-  icon: {fileID: 0}
+  itemName: Hide
+  description: Used to make leather
+  icon: {fileID: 21300000, guid: 9693a528cc81f7548b352884bff5e299, type: 3}
   itemTypes: 0

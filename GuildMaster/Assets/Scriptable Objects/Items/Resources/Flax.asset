@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc9e190c854bb44e93d158c3765e105, type: 3}
   m_Name: Flax
   m_EditorClassIdentifier: 
-  itemName: 
-  description: 
+  itemName: Flax
+  description: Used to make cloth
   icon: {fileID: 21300000, guid: bc7b76c53acf720499557ee504c53c71, type: 3}
   itemTypes: 0

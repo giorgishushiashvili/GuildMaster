@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc9e190c854bb44e93d158c3765e105, type: 3}
   m_Name: Ore
   m_EditorClassIdentifier: 
-  itemName: 
-  description: 
-  icon: {fileID: 0}
+  itemName: Ore
+  description: Used to make Metal Bars
+  icon: {fileID: 21300000, guid: 8b6a117222c88b74aad5c900730113fb, type: 3}
   itemTypes: 0
