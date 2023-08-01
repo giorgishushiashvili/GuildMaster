@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ResourceGeneration : MonoBehaviour
 {
+    
     public int GetWood(int lumberjack)
     {
         return lumberjack * 10;
