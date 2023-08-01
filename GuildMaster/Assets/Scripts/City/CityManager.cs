@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CityManager : MonoBehaviour
 {
+    public GameObject population;
+    public GameObject resourceGeneration;
     // Start is called before the first frame update
     void Start()
     {
