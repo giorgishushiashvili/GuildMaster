@@ -8,6 +8,7 @@ public class CityManager : MonoBehaviour
     public GameObject resourceGeneration;
     public GameObject inventory;
     public GameObject itemList;
+    public GameObject markets;
 
 
     public void EndOfDay()

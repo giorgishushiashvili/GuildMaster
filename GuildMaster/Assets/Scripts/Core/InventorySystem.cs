@@ -49,5 +49,18 @@ public class InventorySystem : MonoBehaviour
             }
         }
     }
+
+    public bool CanRemove(Item item, int amount)
+    {
+        ItemInstance getItem = inventory.Find(ItemInstance => ItemInstance.GetItem() == item);
+        if (getItem == null)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
     
 }

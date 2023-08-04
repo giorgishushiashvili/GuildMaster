@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class GameTime : MonoBehaviour
 {
+    public GameObject city;
 
     [SerializeField] private float minutesForDay;
     [SerializeField] private float secondsForDay;
@@ -20,7 +21,7 @@ public class GameTime : MonoBehaviour
             secondsLeft -= Time.deltaTime;
             if (secondsLeft < 0)
             {
-                day = false;
+                endDay();
             }
         }
     }
@@ -29,6 +30,12 @@ public class GameTime : MonoBehaviour
     {
         day = true;
         secondsLeft = minutesForDay * 60 + secondsForDay;
+    }
+
+    public void endDay()
+    {
+        day = false;
+        city.GetComponent<CityManager>().EndOfDay();
     }
 
     public bool Day()
